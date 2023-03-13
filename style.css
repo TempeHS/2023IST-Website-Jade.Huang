@@ -49,8 +49,23 @@ DIV {
 	}
 }
 
-*{
+.button{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Tilt Warp', cursive;
+}
+
+.button-2{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Tilt Warp', cursive;
+}
+	
+.button-5{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Tilt Warp', cursive;
+}
