@@ -84,5 +84,18 @@ DIV {
 	font-weight: 600;
 	margin: 0 15px;
 	transition: 0.4s;
-	
 }
+
+.button-2{
+	color: #FE4880;
+	border: 3px solid #FE4880;
+	background-image: linear-gradient(to right, transparent 50%, #FE4880 50%);
+	background-size: 200%;
+	background-position: 0%;
+}
+
+.button-2:hover{
+	color: #FFF;
+	background-position: 100%;
+}
+	
