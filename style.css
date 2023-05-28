@@ -1,0 +1,53 @@
+.btn-primary {
+    position:absolute;
+	font-size: 28px;
+	font-weight: 600;
+    bottom:20px;
+    right:20px;
+    background:blue;
+    color:#FFF;
+	padding-right: 10;
+}
+
+
+
+
+.button-2{
+	position: absolute
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Tilt Warp', cursive;
+	
+}
+
+.button-2{
+	appearance: none;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	
+	padding: 20px 40px;
+	border-radius: 8px;
+	color: #212121;
+	font-size: 28px;
+	font-weight: 600;
+	margin: 0 15px;
+	transition: 0.4s;
+}
+
+.button-2{
+	color: #FE4880;
+	border: 3px solid #FE4880;
+	background-image: linear-gradient(to right, transparent 50%, #FE4880 50%);
+	background-size: 200%;
+	background-position: 0%;
+	
+}
+
+.button-2:hover{
+	color: #FFF;
+	background-position: 100%;
+}
+
