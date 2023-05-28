@@ -1,14 +1,32 @@
 .btn-primary {
-    position:absolute;
+    position: absolute;
 	font-size: 28px;
 	font-weight: 600;
-    bottom:20px;
-    right:20px;
-    background:blue;
-    color:#FFF;
-	padding-right: 10;
+    bottom: 20px;
+    right: 20px;
+    background: blue;
+    color: #FFF;
 }
 
+.accordion-img {
+	height: 240px;
+	width: 160px;
+}
+
+#accordion-header {
+	position: relative;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 
