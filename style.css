@@ -2,8 +2,6 @@
     position: absolute;
 	font-size: 28px;
 	font-weight: 600;
-    bottom: 20px;
-    right: 20px;
     background: blue;
     color: #FFF;
 }
@@ -11,6 +9,15 @@
 .accordion-img {
 	height: 240px;
 	width: 160px;
+}
+
+.article-img {
+	height: 450px;
+	width: 800px;
+}
+
+.container p{
+	
 }
 
 #accordion-header {
@@ -23,7 +30,7 @@
 /* Centered text */
 .centered {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
