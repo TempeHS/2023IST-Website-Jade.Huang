@@ -1,6 +1,6 @@
 .btn-primary {
     position: absolute;
-	font-size: 28px;
+	font-size: 40px;
 	font-weight: 600;
     background: blue;
     color: #FFF;
@@ -14,10 +14,6 @@
 .article-img {
 	height: 450px;
 	width: 800px;
-}
-
-.container p{
-	
 }
 
 #accordion-header {
@@ -76,3 +72,7 @@
 	background-position: 100%;
 }
 
+.card{
+	font-size: 40px;
+	font-weight: 600px;
+}
