@@ -1,151 +1,139 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>animalcafely</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>animalcafely</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
-	<!-- FAVICON STARTS HERE -->
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-	<link rel="manifest" href="images/site.webmanifest">
-	<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
-	<!-- FAVICON ENDS HERE -->
-	<link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-	<style>
-		.navbar-brand img {
-			height: 180px
-		}
-	</style>
+<!-- FAVICON STARTS HERE -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<!-- FAVICON ENDS HERE -->
+<link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<style>
+.navbar-brand img {height:180px}
+</style>
 
 
-	<!-- NAVBAR STARTS HERE -->
+<!-- NAVBAR STARTS HERE -->	
 
-	<nav class="navbar navbar-expand-lg bg-body-tertiary">
-		<div class="container">
-			<a class="navbar-brand" href="index.html"><IMG src="images\logowithtext.png" /></a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Cat cafes</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-							aria-expanded="false">
-							Categories
-						</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Entertainment</a></li>
-							<li><a class="dropdown-item" href="#">Suspicious</a></li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
-							<li><a class="dropdown-item" href="#">Map</a></li>
-						</ul>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled">Disabled</a>
-					</li>
-				</ul>
-				<form class="d-flex" role="search">
-					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success" type="submit">Search</button>
-				</form>
-			</div>
-		</div>
-	</nav>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><IMG src="images\logowithtext.png" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cat cafes</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Entertainment</a></li>
+            <li><a class="dropdown-item" href="#">Suspicious</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Map</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
 
-	<!-- NAVBAR ENDS HERE -->
+<!-- NAVBAR ENDS HERE -->
 
-	<!-- VIDEO PLAYER STARTS HERE -->
+<!-- VIDEO PLAYER STARTS HERE -->
 
-	<div class="container-fluid">
-	</div>
+<div class="container-fluid">
+</div>
 
 
-	<!-- VIDEO PLAYER ENDS HERE -->
+<!-- VIDEO PLAYER ENDS HERE -->
 
-	<!-- CATEGORIES BLOCK STARTS HERE -->
+<!-- CATEGORIES BLOCK STARTS HERE -->
 
-	<!-- CATEGORIES BLOCK ENDS HERE -->
+<!-- CATEGORIES BLOCK ENDS HERE -->
 
-	<!-- HERO SLIDER STARTS HERE -->
+<!-- HERO SLIDER STARTS HERE -->
 
-	<div id="carouselExampleCaptions" class="carousel slide fluid">
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-				aria-current="true" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-				aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-				aria-label="Slide 3"></button>
-		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="https://media.cntraveler.com/photos/5a92b052ad2a7e3780f2e347/16:9/w_2560%2Cc_limit/Cat-Cafe-MoCHA__2018_KA1_9398.jpg"
-					class="d-block w-100 img-fluid" alt="Cat in a cat cafe looking suprised at the viewer">
-				<div class="d-none d-md-block">
-					<a href="listpage.html" class="btn btn-primary centered">Top animal cafes</a>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img src="https://i.ytimg.com/vi/ALXqHday3_k/maxresdefault.jpg" class="d-block w-100"
-					alt="Capybara and cat chilling">
-				<div class="d-none d-md-block">
-					<a href="mappage.html" class="btn btn-primary centered">Animal cafe map</a>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img src="https://cdn.shopify.com/s/files/1/0094/8617/2265/files/20200909_Image1_1280x720_8c1bcf47-a698-462d-b9fe-0c93c059f1f0.jpg?v=1599601471"
-					class="d-block w-100" alt="Illustrated cat cafe rules">
-				<div class="d-none d-md-block">
-					<a href="articlepage.html" class="btn btn-primary centered">General animal cafe protocol</a>
-				</div>
-			</div>
-		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-			data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-			data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		</button>
-	</div>
-	<!-- HERO SLIDER ENDS HERE -->
+<div id="carouselExampleCaptions" class="carousel slide fluid">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	  <img src="https://media.cntraveler.com/photos/5a92b052ad2a7e3780f2e347/16:9/w_2560%2Cc_limit/Cat-Cafe-MoCHA__2018_KA1_9398.jpg" class="d-block w-100 img-fluid" alt="Cat in a cat cafe looking suprised at the viewer">
+	  <div class="d-none d-md-block">
+	  <a href="listpage.html" class="btn btn-primary centered">Top animal cafes</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ytimg.com/vi/ALXqHday3_k/maxresdefault.jpg" class="d-block w-100" alt="Capybara and cat chilling">
+      <div class="d-none d-md-block">
+      <a href="mappage.html" class="btn btn-primary centered">Animal cafe map</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.shopify.com/s/files/1/0094/8617/2265/files/20200909_Image1_1280x720_8c1bcf47-a698-462d-b9fe-0c93c059f1f0.jpg?v=1599601471" class="d-block w-100" alt="Illustrated cat cafe rules">
+      <div class="d-none d-md-block">
+	  <a href="articlepage.html" class="btn btn-primary centered">General animal cafe protocol</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- HERO SLIDER ENDS HERE -->
 
-	<!-- TEST CODE STARTS HERE -->
+<!-- TEST CODE STARTS HERE -->
 
 
 
 
-	<!-- TEST CODE ENDS HERE -->
+<!-- TEST CODE ENDS HERE -->
+	
+	
+<! -- DO NOT EDIT BELOW THIS LINE -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>	
 
 
-	<! -- DO NOT EDIT BELOW THIS LINE -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-			crossorigin="anonymous"></script>
-</body>
 
-</html>
+
+
+
+
+
+
